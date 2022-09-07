@@ -1,3 +1,5 @@
+black
+pylint
 kaggle
 pandas
 pyspark
