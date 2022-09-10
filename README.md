@@ -12,4 +12,4 @@
 `docker kill <image_name>`
 
 ##### To access Kaggle dataset
-If you see `OSError: Could not find kaggle.json. Make sure it's located in /home/vscode/.kaggle. Or use the environment method.`. Please download Kaggle token with your account and `rm` it to required dirtectory.
+If you see `OSError: Could not find kaggle.json. Make sure it's located in /home/vscode/.kaggle. Or use the environment method.`. Please download Kaggle token with your account and `mv` it to required dirtectory.
