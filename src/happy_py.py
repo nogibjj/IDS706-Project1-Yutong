@@ -9,10 +9,14 @@ spark = (
     .getOrCreate()
 )
 
-path_train = "data/train.csv"
-df_train = spark.read.csv(path_train)
-df_train.show()
+PATH_TRAIN = "data/train.csv"
+df_train = spark.read.csv(PATH_TRAIN)
+# df_train.show()
+# df_train.printSchema()
+psdf = df_train.pandas_api()
+print(psdf.head(20))
 
-path_test = "data/test.csv"
-df_test = spark.read.csv(path_test)
-df_test.show()
+# PATH_TEST = "data/test.csv"
+# df_test = spark.read.csv(PATH_TEST)
+# df_test.show()
+# df_test.printSchema()
