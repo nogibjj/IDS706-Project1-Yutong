@@ -9,6 +9,7 @@ spark = (
     .getOrCreate()
 )
 
+# https://spark.apache.org/docs/3.2.1/api/python/getting_started/quickstart_ps.html
 PATH_TRAIN = "data/train.csv"
 df_train = spark.read.csv(PATH_TRAIN)
 # df_train.show()
