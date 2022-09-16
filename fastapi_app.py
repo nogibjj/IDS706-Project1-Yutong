@@ -20,7 +20,7 @@ async def query():
     """Execute a SQL query"""
 
     result = querydb()
-    return {"result": result}
+    return {"result": result}   
 
 
 if __name__ == '__main__':
