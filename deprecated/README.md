@@ -1,4 +1,4 @@
-# IDS706-Project1-Yutong
+# IDS706-Project2-Yutong
 
 ### Usage
 ##### To run in docker
